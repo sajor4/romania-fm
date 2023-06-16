@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.first-section {
+    background-color: #ffcc00;
+    width: 100vw;
+    height: 100vh;
+}
+
+.last-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    
+}
+
+.mouth {
+    width: 50vw;
+    height: 50vh;
+    background-color: #660099;
+}
+
+.arrow {
+    width: 50vw;
+    height: 50vh;
+    background-color: #ff3333;
+}
+
+@media (max-width:480px) {
+    .last-section {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .mouth {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .arrow {
+        width: 100vw;
+        height: 100vh;
+}
