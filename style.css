@@ -28,6 +28,32 @@
     background-color: #ff3333;
 }
 
+
+/* ---------------SCHEDULE SECTION---------------- */
+.schedule-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "title . pallino";
+}
+
+.schedule-title {
+    grid-area: title;
+}
+ .schedule-pallino {
+grid-area: pallino;
+display: flex;
+align-items: right;
+ }
+
+ h1 {
+    font-size: 100px;
+
+ }
+
+
+
+
 @media (max-width:480px) {
     .last-section {
         grid-template-columns: auto;
